@@ -25,7 +25,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Gauriagraw866/VidyaSetu.git
+   git clone https://github.com/raxes03/Vidyasetu
    cd Student-ChatBot
    ```
 2. Student-ChatBot-Frontend
