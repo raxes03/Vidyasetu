@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Student-ChatBot-Frontend",
+    "slug": "Student-ChatBot-Frontend",
+    "version": "1.0.0",
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1392eba1-a5d9-462f-a127-a97896170567"
+      }
+    },
+    "android": {
+      "package": "com.white728.StudentChatBotFrontend"
+    },
+    "ios": {
+      "bundleIdentifier": "com.white728.StudentChatBotFrontend"
+    }
+  }
+}

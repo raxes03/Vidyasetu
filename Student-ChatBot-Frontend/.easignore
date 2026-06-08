@@ -1,0 +1,42 @@
+# Ignoring unnecessary files and directories
+
+# Node modules (if using managed workflow)
+node_modules/
+
+# Environment files (secure info should be set via EAS secrets)
+.env
+.env.*
+
+# Local and development files
+*.log
+*.gz
+*.tgz
+*.zip
+*.rar
+.DS_Store
+*.tmp
+.vscode/
+.idea/
+expo-shared/
+
+# Test and docs directories
+__tests__/
+docs/
+coverage/
+*.spec.js
+*.test.js
+*.md
+
+# Assets used for development only
+<!-- assets/mock_data/ -->
+<!-- assets/sample_images/ -->
+
+# Ignore Android and iOS folders if you haven't ejected
+android/
+ios/
+
+# Build output
+<!-- web-build/ -->
+<!-- build/ -->
+<!-- dist/ -->
+<!-- out/ -->
