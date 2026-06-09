@@ -1,44 +1,95 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="./Student-ChatBot-Frontend/src/assets/image/8943377.png" alt="Logo" width="100" height="100">
-  <h3 align="center">VidyaSetu</h3>
+    <img src="./Student-ChatBot-Frontend/src/assets/image/8943377.png" alt="VidyaSetu Logo" width="100" height="100">
+  <h1 align="center">VidyaSetu</h1>
+  <p align="center">A student-focused chatbot platform for learning support and academic assistance</p>
 </div>
 
-<!-- GETTING STARTED -->
-## Getting Started
+---
 
+## 📋 Table of Contents
 
-To get a local copy up and running follow these simple example steps.
-<!--
+- [About](#about)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+
+## About
+
+VidyaSetu is an educational chatbot application designed to help students with learning and academic support. The project consists of a frontend application and a backend API.
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally.
+
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
--->
+- **Node.js** (v14 or higher)
+- **npm** or **yarn** package manager
+- **Git**
+
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Clone the repo
+1. **Clone the repository**
    ```sh
-   git clone https://github.com/raxes03/Vidyasetu
-   cd Student-ChatBot
+   git clone https://github.com/raxes03/Vidyasetu.git
+   cd Vidyasetu
    ```
-2. Student-ChatBot-Frontend
+
+2. **Frontend Setup**
    ```sh
    cd Student-ChatBot-Frontend
    npm install
+   npm start
    ```
-5. Change git remote url to avoid accidental pushes to base project
+   The frontend will be available at `http://localhost:3000`
+
+3. **Backend Setup** (if applicable)
    ```sh
-   git status # check new file updates
-   git add <file>... # to update what will be committed
-   git commit -m "your_name or file_name" # this for commit check
-   git push origin main # this push the file in repo
+   cd Student-ChatBot-Backend
+   npm install
+   npm start
    ```
+
+### Project Structure
+
+```
+Vidyasetu/
+├── Student-ChatBot-Frontend/  # React frontend application
+├── Student-ChatBot-Backend/   # Backend API and services
+└── README.md
+```
+
+## 📝 Contributing
+
+We welcome contributions! To contribute:
+
+1. Create a new branch for your feature/fix
+   ```sh
+   git checkout -b feature/your-feature-name
+   ```
+
+2. Make your changes and commit them
+   ```sh
+   git add .
+   git commit -m "Add: description of your changes"
+   ```
+
+3. Push to your branch
+   ```sh
+   git push origin feature/your-feature-name
+   ```
+
+4. Open a Pull Request with a clear description of your changes
+
+### Git Workflow Tips
+
+- Keep commits atomic and descriptive
+- Use meaningful commit messages (e.g., "Fix: bug in login" or "Add: user authentication")
+- Pull latest changes before pushing
+- Reference issues in your commit messages when applicable
+
+---
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
